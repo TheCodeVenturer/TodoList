@@ -1,0 +1,23 @@
+{
+  "name": "to-do_v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Niraj Modi",
+  "license": "ISC",
+  "engines": {
+    "node": "16.4.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20"
+  }
+}
